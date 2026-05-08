@@ -20,3 +20,7 @@ pnpm dev
 - Update prices (`₹ XX,XXX`), address, phone, and email placeholders.
 - Wire contact/enrollment form to production backend (email/DB/CRM).
 - Replace `/public/og-image.jpg` placeholder with final brand OG visual.
+
+## Recent Updates
+- Added modern rounded enrollment popup triggered by all primary CTAs.
+- Improved responsiveness for mobile, tablet, laptop, and desktop breakpoints.
