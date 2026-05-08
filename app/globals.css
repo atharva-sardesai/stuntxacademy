@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #141414;
+  --accent-primary: #FF3B00;
+  --accent-secondary: #FFB800;
+  --text-primary: #FAFAFA;
+  --text-muted: #A1A1AA;
+  --border-color: #27272A;
+}
+html { scroll-behavior: smooth; }
+body { background: var(--bg-primary); color: var(--text-primary); font-family: var(--font-sans), sans-serif; }
+h1,h2,h3,.display { font-family: var(--font-display), sans-serif; }
+.diagonal-divider { clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%); }
