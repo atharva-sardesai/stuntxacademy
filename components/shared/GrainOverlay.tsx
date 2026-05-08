@@ -1,0 +1,1 @@
+export function GrainOverlay() { return <div aria-hidden className='pointer-events-none fixed inset-0 opacity-20 mix-blend-soft-light' style={{backgroundImage:'radial-gradient(circle at 1px 1px, #fff 1px, transparent 0)', backgroundSize:'3px 3px'}} />; }
